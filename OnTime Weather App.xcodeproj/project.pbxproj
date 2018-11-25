@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FD28EB21AA93C00091ACA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD28EA21AA93C00091ACA0 /* AppDelegate.swift */; };
+		07FD28ED21AA93C00091ACA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD28EC21AA93C00091ACA0 /* ViewController.swift */; };
+		07FD28F021AA93C00091ACA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FD28EE21AA93C00091ACA0 /* Main.storyboard */; };
+		07FD28F321AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07FD28F121AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodeld */; };
+		07FD28F521AA93C00091ACA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FD28F421AA93C00091ACA0 /* Assets.xcassets */; };
+		07FD28F821AA93C00091ACA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FD28F621AA93C00091ACA0 /* LaunchScreen.storyboard */; };
+		07FD290321AA93C00091ACA0 /* OnTime_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD290221AA93C00091ACA0 /* OnTime_Weather_AppTests.swift */; };
+		07FD290E21AA93C00091ACA0 /* OnTime_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD290D21AA93C00091ACA0 /* OnTime_Weather_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FD28FF21AA93C00091ACA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FD28DF21AA93C00091ACA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FD28E621AA93C00091ACA0;
+			remoteInfo = "OnTime Weather App";
+		};
+		07FD290A21AA93C00091ACA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FD28DF21AA93C00091ACA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FD28E621AA93C00091ACA0;
+			remoteInfo = "OnTime Weather App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FD28E721AA93C00091ACA0 /* OnTime Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnTime Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FD28EA21AA93C00091ACA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FD28EC21AA93C00091ACA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FD28EF21AA93C00091ACA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FD28F221AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnTime_Weather_App.xcdatamodel; sourceTree = "<group>"; };
+		07FD28F421AA93C00091ACA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FD28F721AA93C00091ACA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FD28F921AA93C00091ACA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FD28FE21AA93C00091ACA0 /* OnTime Weather AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnTime Weather AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FD290221AA93C00091ACA0 /* OnTime_Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTime_Weather_AppTests.swift; sourceTree = "<group>"; };
+		07FD290421AA93C00091ACA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FD290921AA93C00091ACA0 /* OnTime Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnTime Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FD290D21AA93C00091ACA0 /* OnTime_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTime_Weather_AppUITests.swift; sourceTree = "<group>"; };
+		07FD290F21AA93C00091ACA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FD28E421AA93C00091ACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD28FB21AA93C00091ACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD290621AA93C00091ACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FD28DE21AA93C00091ACA0 = {
+			isa = PBXGroup;
+			children = (
+				07FD28E921AA93C00091ACA0 /* OnTime Weather App */,
+				07FD290121AA93C00091ACA0 /* OnTime Weather AppTests */,
+				07FD290C21AA93C00091ACA0 /* OnTime Weather AppUITests */,
+				07FD28E821AA93C00091ACA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FD28E821AA93C00091ACA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FD28E721AA93C00091ACA0 /* OnTime Weather App.app */,
+				07FD28FE21AA93C00091ACA0 /* OnTime Weather AppTests.xctest */,
+				07FD290921AA93C00091ACA0 /* OnTime Weather AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FD28E921AA93C00091ACA0 /* OnTime Weather App */ = {
+			isa = PBXGroup;
+			children = (
+				07FD28EA21AA93C00091ACA0 /* AppDelegate.swift */,
+				07FD28EC21AA93C00091ACA0 /* ViewController.swift */,
+				07FD28EE21AA93C00091ACA0 /* Main.storyboard */,
+				07FD28F421AA93C00091ACA0 /* Assets.xcassets */,
+				07FD28F621AA93C00091ACA0 /* LaunchScreen.storyboard */,
+				07FD28F921AA93C00091ACA0 /* Info.plist */,
+				07FD28F121AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodeld */,
+			);
+			path = "OnTime Weather App";
+			sourceTree = "<group>";
+		};
+		07FD290121AA93C00091ACA0 /* OnTime Weather AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FD290221AA93C00091ACA0 /* OnTime_Weather_AppTests.swift */,
+				07FD290421AA93C00091ACA0 /* Info.plist */,
+			);
+			path = "OnTime Weather AppTests";
+			sourceTree = "<group>";
+		};
+		07FD290C21AA93C00091ACA0 /* OnTime Weather AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07FD290D21AA93C00091ACA0 /* OnTime_Weather_AppUITests.swift */,
+				07FD290F21AA93C00091ACA0 /* Info.plist */,
+			);
+			path = "OnTime Weather AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FD28E621AA93C00091ACA0 /* OnTime Weather App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FD291221AA93C00091ACA0 /* Build configuration list for PBXNativeTarget "OnTime Weather App" */;
+			buildPhases = (
+				07FD28E321AA93C00091ACA0 /* Sources */,
+				07FD28E421AA93C00091ACA0 /* Frameworks */,
+				07FD28E521AA93C00091ACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnTime Weather App";
+			productName = "OnTime Weather App";
+			productReference = 07FD28E721AA93C00091ACA0 /* OnTime Weather App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FD28FD21AA93C00091ACA0 /* OnTime Weather AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FD291521AA93C00091ACA0 /* Build configuration list for PBXNativeTarget "OnTime Weather AppTests" */;
+			buildPhases = (
+				07FD28FA21AA93C00091ACA0 /* Sources */,
+				07FD28FB21AA93C00091ACA0 /* Frameworks */,
+				07FD28FC21AA93C00091ACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FD290021AA93C00091ACA0 /* PBXTargetDependency */,
+			);
+			name = "OnTime Weather AppTests";
+			productName = "OnTime Weather AppTests";
+			productReference = 07FD28FE21AA93C00091ACA0 /* OnTime Weather AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07FD290821AA93C00091ACA0 /* OnTime Weather AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FD291821AA93C00091ACA0 /* Build configuration list for PBXNativeTarget "OnTime Weather AppUITests" */;
+			buildPhases = (
+				07FD290521AA93C00091ACA0 /* Sources */,
+				07FD290621AA93C00091ACA0 /* Frameworks */,
+				07FD290721AA93C00091ACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FD290B21AA93C00091ACA0 /* PBXTargetDependency */,
+			);
+			name = "OnTime Weather AppUITests";
+			productName = "OnTime Weather AppUITests";
+			productReference = 07FD290921AA93C00091ACA0 /* OnTime Weather AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FD28DF21AA93C00091ACA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tariq;
+				TargetAttributes = {
+					07FD28E621AA93C00091ACA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					07FD28FD21AA93C00091ACA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07FD28E621AA93C00091ACA0;
+					};
+					07FD290821AA93C00091ACA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07FD28E621AA93C00091ACA0;
+					};
+				};
+			};
+			buildConfigurationList = 07FD28E221AA93C00091ACA0 /* Build configuration list for PBXProject "OnTime Weather App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FD28DE21AA93C00091ACA0;
+			productRefGroup = 07FD28E821AA93C00091ACA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FD28E621AA93C00091ACA0 /* OnTime Weather App */,
+				07FD28FD21AA93C00091ACA0 /* OnTime Weather AppTests */,
+				07FD290821AA93C00091ACA0 /* OnTime Weather AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FD28E521AA93C00091ACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD28F821AA93C00091ACA0 /* LaunchScreen.storyboard in Resources */,
+				07FD28F521AA93C00091ACA0 /* Assets.xcassets in Resources */,
+				07FD28F021AA93C00091ACA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD28FC21AA93C00091ACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD290721AA93C00091ACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FD28E321AA93C00091ACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD28F321AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodeld in Sources */,
+				07FD28ED21AA93C00091ACA0 /* ViewController.swift in Sources */,
+				07FD28EB21AA93C00091ACA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD28FA21AA93C00091ACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD290321AA93C00091ACA0 /* OnTime_Weather_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FD290521AA93C00091ACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD290E21AA93C00091ACA0 /* OnTime_Weather_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FD290021AA93C00091ACA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FD28E621AA93C00091ACA0 /* OnTime Weather App */;
+			targetProxy = 07FD28FF21AA93C00091ACA0 /* PBXContainerItemProxy */;
+		};
+		07FD290B21AA93C00091ACA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FD28E621AA93C00091ACA0 /* OnTime Weather App */;
+			targetProxy = 07FD290A21AA93C00091ACA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FD28EE21AA93C00091ACA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FD28EF21AA93C00091ACA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07FD28F621AA93C00091ACA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FD28F721AA93C00091ACA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FD291021AA93C00091ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FD291121AA93C00091ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FD291321AA93C00091ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B54Y2APAJH;
+				INFOPLIST_FILE = "OnTime Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maged.OnTime-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07FD291421AA93C00091ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B54Y2APAJH;
+				INFOPLIST_FILE = "OnTime Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maged.OnTime-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07FD291621AA93C00091ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B54Y2APAJH;
+				INFOPLIST_FILE = "OnTime Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maged.OnTime-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTime Weather App.app/OnTime Weather App";
+			};
+			name = Debug;
+		};
+		07FD291721AA93C00091ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B54Y2APAJH;
+				INFOPLIST_FILE = "OnTime Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maged.OnTime-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTime Weather App.app/OnTime Weather App";
+			};
+			name = Release;
+		};
+		07FD291921AA93C00091ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B54Y2APAJH;
+				INFOPLIST_FILE = "OnTime Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maged.OnTime-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OnTime Weather App";
+			};
+			name = Debug;
+		};
+		07FD291A21AA93C00091ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B54Y2APAJH;
+				INFOPLIST_FILE = "OnTime Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maged.OnTime-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OnTime Weather App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FD28E221AA93C00091ACA0 /* Build configuration list for PBXProject "OnTime Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FD291021AA93C00091ACA0 /* Debug */,
+				07FD291121AA93C00091ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FD291221AA93C00091ACA0 /* Build configuration list for PBXNativeTarget "OnTime Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FD291321AA93C00091ACA0 /* Debug */,
+				07FD291421AA93C00091ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FD291521AA93C00091ACA0 /* Build configuration list for PBXNativeTarget "OnTime Weather AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FD291621AA93C00091ACA0 /* Debug */,
+				07FD291721AA93C00091ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FD291821AA93C00091ACA0 /* Build configuration list for PBXNativeTarget "OnTime Weather AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FD291921AA93C00091ACA0 /* Debug */,
+				07FD291A21AA93C00091ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07FD28F121AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07FD28F221AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodel */,
+			);
+			currentVersion = 07FD28F221AA93C00091ACA0 /* OnTime_Weather_App.xcdatamodel */;
+			path = OnTime_Weather_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07FD28DF21AA93C00091ACA0 /* Project object */;
+}
