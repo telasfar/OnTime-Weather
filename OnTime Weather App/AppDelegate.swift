@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  OnTime Weather App
-//
-//  Created by BinaryCase on 11/25/18.
-//  Copyright © 2018 Tariq. All rights reserved.
-//
 
 import UIKit
 import CoreData

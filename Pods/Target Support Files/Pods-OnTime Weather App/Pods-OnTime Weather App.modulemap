@@ -1,0 +1,6 @@
+framework module Pods_OnTime_Weather_App {
+  umbrella header "Pods-OnTime Weather App-umbrella.h"
+
+  export *
+  module * { export * }
+}

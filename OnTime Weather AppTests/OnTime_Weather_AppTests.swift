@@ -1,9 +1,5 @@
 //
-//  OnTime_Weather_AppTests.swift
-//  OnTime Weather AppTests
-//
-//  Created by BinaryCase on 11/25/18.
-//  Copyright © 2018 Tariq. All rights reserved.
+d.
 //
 
 import XCTest
@@ -13,6 +9,7 @@ class OnTime_Weather_AppTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
+       
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
