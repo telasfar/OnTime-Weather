@@ -15,8 +15,34 @@ class DataService{
     var weather:WeatherModel?
     var weatherArr = [WeatherModel]()
     
+    func getWeatherByCity(city:String,country:String,complition: @escaping complitionHandlerWeather){
+        let urlCity = getURLByCity(city: city, country: country).addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        Alamofire.request(urlCity, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
+            
+            let jsonDecoder = JSONDecoder()
+            
+            
+            if response.result.error == nil {
+            //case let .success(value):
+           
+                do{
+                    let rsponseModel = try jsonDecoder.decode(WeatherResource.self, from: response.data!)
+                    complition(true,rsponseModel)
+                }catch{
+                    debugPrint(error.localizedDescription)
+                }
+                
+            }else{
+               
+                print(response.result.error,"sss")
+                complition(false,nil)
+                
+        }
+        }
+    }
+    
     func getWeatherToday(long:Double,lat:Double,complition: @escaping complitionHandlerMessage){
-        let apiURL = returnURL(lat: lat, long: long, mode: "weather")
+        let apiURL = getMapURL(lat: lat, long: long, mode: "weather")
         Alamofire.request(apiURL, method: HTTPMethod.get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
             if response.result.error == nil {
                 guard let dataJson = response.data else {return}
@@ -55,7 +81,7 @@ class DataService{
     }
     
     func getWeatherLastDays(long:Double,lat:Double,complition: @escaping complitionHandlerArray){
-         let apiURL = returnURL(lat: lat, long: long, mode: "forecast")
+         let apiURL = getMapURL(lat: lat, long: long, mode: "forecast")
         Alamofire.request(apiURL, method: HTTPMethod.get, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
             if response.result.error == nil {
                 guard let dataJson = response.data else {return}
@@ -72,7 +98,7 @@ class DataService{
             let json = try JSON(data: data).dictionary
             let jsonArray = json!["list"]?.array
             for item in jsonArray!{
-                if weatherArr.count < 5 {
+                if weatherArr.count <= 14 {
                     let mainDect = item["main"].dictionary
                     let temp = mainDect!["temp"]?.doubleValue
                     let tempMax = mainDect!["temp_max"]?.doubleValue
@@ -80,6 +106,8 @@ class DataService{
                     let humidity = mainDect!["humidity"]?.doubleValue
                     let jsonArray = item["weather"].array
                     let desc = jsonArray?.first!["description"].stringValue
+                    let dt_txt = item["dt_txt"].string ?? ""
+                    print(dt_txt,"sss")
                     let weather = WeatherModel(description: desc!, temp: temp!, humidity: humidity!, tempMin: tempMin!, tempMax: tempMax!, wendSpeed: nil, rainVolume: nil)
                     self.weatherArr.append(weather)
                 }
@@ -91,5 +119,7 @@ class DataService{
         }
        
     }
+    
+    
     
 }

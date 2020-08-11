@@ -10,6 +10,7 @@ class SplashScreenVC: UIViewController {
     @IBOutlet  var viewAnimate: LOTAnimationView!
     override func viewDidLoad() {
         super.viewDidLoad()
+
         let gesture = UISwipeGestureRecognizer(target: self, action: #selector(splashTimeOut))
         gesture.direction = .left
         view.addGestureRecognizer(gesture)

@@ -14,5 +14,6 @@ struct WeatherModel{
     public private(set) var rainVolume:Double?
 
 
+
     
 }
